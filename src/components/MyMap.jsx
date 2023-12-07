@@ -3,9 +3,9 @@ import mapData from './../data/countries.json';
 import "leaflet/dist/leaflet.css";
 import { MapContainer as LeafletMap, GeoJSON } from "react-leaflet"
 import './MyMap.css';
-
+  
 const MyMap = () => {
-
+  
     const [color, setColor] = useState('#ffff00');
     useEffect(() => {
       console.log(mapData);

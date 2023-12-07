@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-draw/dist/leaflet.draw.css';
 import { EditControl } from 'react-leaflet-draw';
 import 'leaflet-draw';
-
+  
 const MyMap3 = () => {
     const [editableFG, setEditableFG] = useState(null);
     const [geoJsonArray, setGeoJsonArray] = useState([]);
