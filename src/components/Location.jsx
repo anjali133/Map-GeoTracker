@@ -4,7 +4,7 @@ import iconCar from './../car-icon.jpg';
 import L from 'leaflet';
 
 
-const icon = new L.icon({
+const icon = new L.icon({ 
   iconUrl: iconCar,
   iconSize: [28, 46],
   iconAnchor: [17, 46],

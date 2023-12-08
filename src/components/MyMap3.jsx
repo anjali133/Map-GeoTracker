@@ -7,7 +7,7 @@ import 'leaflet-draw';
   
 const MyMap3 = () => {
     const [editableFG, setEditableFG] = useState(null);
-    const [geoJsonArray, setGeoJsonArray] = useState([]);
+    const [geoJsonArray, setGeoJsonArray] = useState([]); 
 
     const onFeatureGroupReady = (reactFGref) => {
         // store the ref for future access to content
