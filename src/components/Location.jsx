@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, GeoJSON, Popup, Marker, useMapEvents } from 'react-leaflet';
 import React, { useEffect, useState } from 'react';
 import iconCar from './../car-icon.jpg';
-import L from 'leaflet';
+import L from 'leaflet'; 
 
 
 const icon = new L.icon({ 

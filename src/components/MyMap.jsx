@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import mapData from './../data/countries.json';
 import "leaflet/dist/leaflet.css";
 import { MapContainer as LeafletMap, GeoJSON } from "react-leaflet"
-import './MyMap.css';
+import './MyMap.css'; 
   
 const MyMap = () => { 
   

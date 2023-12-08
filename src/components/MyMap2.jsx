@@ -111,7 +111,7 @@ const MyMap2 = () => {
         center={[26.897743, 75.838266]}
         zoom={10}
       >
-     
+      
         {/* <GeoJSON data={mapData.features} /> */}
         {parsedGeoJSON && <GeoJSON data={parsedGeoJSON} />} 
         {/* <TileLayer
